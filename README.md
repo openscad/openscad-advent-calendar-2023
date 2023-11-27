@@ -12,3 +12,6 @@ Designs for the OpenSCAD Advent Calendar 2023
 
 ### Tree
 <img src="tree/tree.png" width="400">
+
+### StringStar
+<img src="StringStar/StringartStar.png" width="400">
