@@ -1,20 +1,21 @@
 # openscad-advent-calendar-2023
 Designs for the OpenSCAD Advent Calendar 2023
 
-### NameTag
-<img src="NameTag/NameTag.png" width="400">
+## 1. StringStar
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/StringStar/StringartStar.png" width="250">
 
-### Bell
-<img src="Bell/Bell.png" width="400">
+## 2. StarBox
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/StarBox/StarBox.png" width="250">
 
-### Star Box
-<img src="StarBox/StarBox.png" width="400">
+## 3. Tree
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Tree/Tree.png" width="250">
 
-### Tree
-<img src="Tree/Tree.png" width="400">
+## 4. NameTag
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/NameTag/NameTag.png" width="250">
 
-### StringStar
-<img src="StringStar/StringartStar.png" width="400">
+## 5. Bell
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Bell/Bell.png" width="250">
 
-### Snowflakes
-<img src="Snowflakes/Snowflakes.png" width="400">
+## 6. Snowflakes
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Snowflakes/Snowflakes.png" width="250">
+
