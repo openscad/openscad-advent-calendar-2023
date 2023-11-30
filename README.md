@@ -15,3 +15,6 @@ Designs for the OpenSCAD Advent Calendar 2023
 
 ### StringStar
 <img src="StringStar/StringartStar.png" width="400">
+
+### Snowflakes
+<img src="Snowflakes/Snowflakes.png" width="400">
