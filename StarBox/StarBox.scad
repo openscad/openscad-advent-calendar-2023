@@ -12,7 +12,7 @@ star_r1 = 25;
 star_r2 = 30;
 
 wall = 2;
-height = 40;
+height = 25;
 tolerance = 0.2;
 
 pa = 360 / 2 / points;
@@ -37,11 +37,11 @@ module clip_pos(o = 0, z = 0) {
 
 module box() {
 	difference() {
-		linear_extrude(height)
+		linear_extrude(height, convexity = 4)
 			offset(wall + tolerance)
 				shape();
 		translate([0, 0, wall])
-			linear_extrude(height)
+			linear_extrude(height, convexity = 4)
 				chamfer(2 * wall)
 					offset(tolerance)
 						shape();

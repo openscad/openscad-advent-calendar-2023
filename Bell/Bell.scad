@@ -1,13 +1,22 @@
 // Bell
 
-$fa = 2; $fs = 0.2;
-
+selection = 0; // [0:Small bell, 1:Big bell]
 hole = 3;
+wall = 1.2;
 
-radius = 40;
-height = 60;
-ring = 15;
-wall = 0.8;
+bell = [
+  [28, 40, 10, 2.5, 5.5, 8.5],
+  [40, 60, 15, 3, 8, 13],
+];
+
+radius = bell[selection][0];
+height = bell[selection][1];
+ring = bell[selection][2];
+
+h1 = bell[selection][3];
+h2 = bell[selection][4];
+h3 = bell[selection][5];
+
 
 f = function(x, xs, ys) ys * exp(((x * 3 / xs) ^ 4) / -18) + ring;
 
@@ -48,15 +57,17 @@ module bell() {
 			shape();
 		}
 		color("gold") {
-			ring(wall/2, 4) resize([0.5, 2]) circle(2);
-			pos(wall/2, 12, 8) resize([0.5, 4, 2]) sphere(2);
-			ring(wall/2, 12) resize([0.5, 2]) circle(2);
+			ring(wall/2, h1) resize([0.5, 2]) circle(2);
+			pos(wall/2, 12, h2) resize([0.5, 4, 2]) sphere(2);
+			ring(wall/2, h3) resize([0.5, 2]) circle(2);
 		}
 		cylinder(d = hole, h = 100);
 	}
 }
 
 bell();
+
+$fa = 2; $fs = 0.2;
 
 // Written in 2023 by Torsten Paul <Torsten.Paul@gmx.de>
 //
