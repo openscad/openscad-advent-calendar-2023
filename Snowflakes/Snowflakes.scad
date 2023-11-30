@@ -5,7 +5,7 @@
 //Snowflakes
 
 area=[80,120];
-seed=58;
+seed=45;
 
 
 color("lightskyblue",.4)Place(h=1);
@@ -15,19 +15,21 @@ color("lightskyblue",.4)Place(h=1);
 module Place(area=area,num=rands(4,10,1,seed)[0],seed=seed,size=20,h=0){
 
 
-if(num>=1){
+if(num>0){
  area2=area.x>area.y?[area.x/2,area.y]:[area.x,area.y/2];
  
- translate(area.x>area.y?[area.x/2,0]:[0,area.y/2])Place(area=area2, num = floor(num/2), seed = rands(-9999,9999,1,seed*PI)[0], size=rands(5,max(area2)/2,1,seed*PI)[0],h=h);
+ translate(area.x>area.y?[area.x/2,0]:[0,area.y/2])Place(area=area2, num = floor(num/2), seed = rands(-9999,9999,1,seed*PI)[0], size=min(area2)*rands(0,.5,1,seed*PI)[0],h=h);
  
- Place(area=area2, num = floor(num/2) , seed = rands(-9999,9999,1,seed)[0], size=rands(5,max(area2)/2,1,seed)[0],h=h);
+ Place(area=area2, num = floor(num/2) , seed = rands(-9999,9999,1,seed)[0], size=min(area2)*rands(0.1,.5,1,seed)[0],h=h);
  }
+ 
+//translate([0,0,num])offset(-1)square(area);
 
 pos = [
- rands(0+size/2,area.x-size/2,1,seed)[0],
- rands(0+size/2,area.y-size/2,1,seed*PI)[0],
+ rands(0+size/2,abs(area.x-size/2),1,seed)[0],
+ rands(0+size/2,abs(area.y-size/2),1,seed*PI)[0],
  ];
-if(h)linear_extrude(rands(0,h,1,seed*PI^2)[0])translate(pos)Flake(size=size,seed=seed);
+if(h)linear_extrude(rands(.5,h,1,seed*PI^2)[0])translate(pos)Flake(size=size,seed=seed );
 else translate(pos)Flake(size=size,seed=seed);
 
 
@@ -41,7 +43,7 @@ module Flake (size=20,seed=42,rad=.2,$fs=.2,$fa=1){
   for (rot=[0:60:359])rotate(rot){
     for(salt=[0:2+ceil(abs(random[1])*8)]){
     d=rands(.25,6,1,random[2])[0];
-     translate([0,rands(0,size/2-d/2,1,random[3]+salt)[0]])difference(){
+     translate([0,rands(0,size/2-d/2,1,random[3]+salt)[0]])rotate(30)difference(){
      circle(d=d,$fn=6);
      if(d>3)circle(d=d-1,$fn=6);
      }
