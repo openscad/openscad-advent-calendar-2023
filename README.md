@@ -5,13 +5,13 @@ Designs for the OpenSCAD Advent Calendar 2023
 <img src="NameTag/NameTag.png" width="400">
 
 ### Bell
-<img src="bell/bell.png" width="400">
+<img src="Bell/Bell.png" width="400">
 
 ### Star Box
-<img src="star-box/star-box.png" width="400">
+<img src="StarBox/StarBox.png" width="400">
 
 ### Tree
-<img src="tree/tree.png" width="400">
+<img src="Tree/Tree.png" width="400">
 
 ### StringStar
 <img src="StringStar/StringartStar.png" width="400">
