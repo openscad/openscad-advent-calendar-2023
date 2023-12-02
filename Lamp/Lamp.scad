@@ -1,6 +1,6 @@
 // Christmas Lamp
 
-select_theme = 0; // [0:Flower, 1:Winter, 2:Disco, 3:Cartoon]
+select_theme = 0; // [0:Christmas, 1:Flower, 2:Winter, 3:Disco, 4:Cartoon]
 select_part = 0; // [0:Assembly, 1:Base, 2:Top, 3:Bar, 4:Side-1, 5:Side-2, 6:Side-3, 7:Side-4]
 
 /* [Hidden] */
@@ -31,6 +31,14 @@ side_offset = base_height + 10;
 
 svgs = [
 	[
+		"christmas",
+		SCALE_HORIZONTAL,
+		"snowflake.svg",								// https://www.printables.com/model/93356-christmas-decorations
+		"gingerbread.svg",								// https://www.printables.com/model/93356-christmas-decorations
+		"horse.svg",									// https://www.printables.com/model/93356-christmas-decorations
+		"reindeer.svg",									// https://www.printables.com/model/93356-christmas-decorations
+		"angel.svg",									// https://www.printables.com/model/93356-christmas-decorations
+	] ,[
 		"flower",
 		SCALE_HORIZONTAL,
 		"lemmling-Decorative-flower.svg",				// https://openclipart.org/detail/17495/decorative-flower
@@ -38,8 +46,7 @@ svgs = [
 		"Flower29.svg",									// https://openclipart.org/detail/243417/flower-29
 		"Flower46.svg",									// https://openclipart.org/detail/245438/flower-46
 		"Flower113.svg",								// https://openclipart.org/detail/286026/flower-113
-	],
-	[
+	], [
 		"winter",
 		SCALE_HORIZONTAL,
 		"Snowflake-Silhouette.svg",						// https://openclipart.org/detail/292679/snowflake-silhouette
@@ -47,8 +54,7 @@ svgs = [
 		"1481132994.svg",								// https://openclipart.org/detail/268042/snowflake03
 		"SnowFlake04.svg",								// https://openclipart.org/detail/268022/snowflake04
 		"Flake-05.svg",									// https://openclipart.org/detail/268054/snowflake05
-	],
-	[
+	], [
 		"disco",
 		SCALE_VERTICAL,
 		"1613135945spiral-logo-concept-svg.svg",		// https://openclipart.org/detail/328239/spiral-logo-concept
@@ -58,8 +64,7 @@ svgs = [
 		"Disco-Dancer-4-Remix-by-Merlin2525.svg",		// https://openclipart.org/detail/173765/disco-dancer-4
 		"Disco-Dancer-5-Remix-by-Merlin2525.svg",		// https://openclipart.org/detail/173766/disco-dancer-5
 		"Disco-Dancer-by-Merlin2525.svg",				// https://openclipart.org/detail/173767/disco-dancer
-	],
-	[
+	], [
 		"cartoon",
 		SCALE_HORIZONTAL,
 		"1611073397logo-design-element-vector-3.svg",	// https://openclipart.org/detail/327205/logotype-design-element-5
@@ -69,6 +74,8 @@ svgs = [
 		"Hen with egg.svg",								// https://openclipart.org/detail/337970/hen-with-egg
 	],
 ];
+
+// Viewport: t = [10, 50, 50] / r = [35, 0, 15] / d = 500
 
 function svg_filename(svg, idx) = str(svg[0], "/", svg[idx]);
 
