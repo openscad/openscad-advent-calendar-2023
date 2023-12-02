@@ -9,22 +9,28 @@ setDay(2, { author: 'Torsten Paul', license: 'CC0', dir: 'StarBox',
         src: 'StarBox.scad',
         bin: ['StarBox_25mm.3mf', 'StarBox_40mm.3mf', 'StarBox_lid.3mf']
 });
-setDay(3, { author: 'Torsten Paul', license: 'CC0', dir: 'Tree',
+setDay(3, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part1',
+        img: 'Lamp-christmas_Side1.png',
+        src: ['Lamp-Part1.scad', 'christmas/gingerbread.svg', 'disco/Disco-Dancer-3-Remix-by-Merlin2525.svg', 'cartoon/Cartoon dog.svg', 'flower/Flower21.svg', 'winter/SnowFlake02.svg'],
+        bin: 'Lamp-christmas_Side1.3mf',
+	info: 'This is part 1 of 6 of a printable lamp, but the panels could be also used separately. There are 5 themes that can be used with the SCAD file, the attached print files is for the christmas theme lamp. All the panel 3MF files are prepared for printing 2 layers @ 0.2mm in white and then in some other color. Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.'
+});
+setDay(4, { author: 'Torsten Paul', license: 'CC0', dir: 'Tree',
         img: 'Tree.png',
         src: 'Tree.scad',
         bin: ['Tree.3mf', 'Tree_star.3mf']
 });
-setDay(4, { author: 'Ulrich Bär', license: 'CC0', dir: 'NameTag',
+setDay(5, { author: 'Ulrich Bär', license: 'CC0', dir: 'NameTag',
         img: 'NameTag.png',
         src: 'NameTag.scad',
         bin: 'NameTag.3mf'
 });
-setDay(5, { author: 'Torsten Paul', license: 'CC0', dir: 'Bell',
+setDay(6, { author: 'Torsten Paul', license: 'CC0', dir: 'Bell',
         img: 'Bell.png',
         src: 'Bell.scad',
         bin: ['Bell_small.3mf', 'Bell_big.3mf']
 });
-setDay(6, { author: 'Ulrich Bär', license: 'CC0', dir: 'Snowflakes',
+setDay(7, { author: 'Ulrich Bär', license: 'CC0', dir: 'Snowflakes',
         img: 'Snowflakes.png',
         src: 'Snowflakes.scad',
         bin: 'Snowflakes.3mf'
