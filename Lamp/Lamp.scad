@@ -104,7 +104,8 @@ module side(svg, idx) {
 		linear_extrude(side_svg_layer, convexity = 5)
 			resize(svg_resize, auto = true)
 				offset(tolerance)
-					import(svg_filename(svg, idx), center = true);
+					if (len(svg[idx]) > 0)
+						import(svg_filename(svg, idx), center = true);
 	difference() {
 		color("black")
 		linear_extrude(wall, scale = [scale, 1], convexity = 5)
@@ -285,3 +286,14 @@ if (select_part == 0) {
 }
 
 $fa = 2; $fs = 0.2;
+
+// Written in 2023 by Torsten Paul <Torsten.Paul@gmx.de>
+//
+// To the extent possible under law, the author(s) have dedicated all
+// copyright and related and neighboring rights to this software to the
+// public domain worldwide. This software is distributed without any
+// warranty.
+//
+// You should have received a copy of the CC0 Public Domain
+// Dedication along with this software.
+// If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
