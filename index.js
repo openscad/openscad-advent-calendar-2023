@@ -37,32 +37,50 @@ setDay(7, { author: 'Torsten Paul', license: 'CC0', dir: 'Tree',
         src: 'Tree.scad',
         bin: ['Tree.3mf', 'Tree_star.3mf']
 });
-setDay(8, { author: 'Ulrich Bär', license: 'CC0', dir: 'Snowflakes',
+setDay(8, { author: 'Scopeuk', license: 'CC0', dir: 'Avocado',
+        img: 'Avocado.png',
+        src: 'Avocado.scad'
+});
+setDay(9, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part3',
+        img: 'Lamp-christmas_Side3.png',
+        src: ['Lamp-Part3.scad', 'christmas/reindeer.svg', 'disco/Disco-Dancer-1-Remix-by-Merlin2525.svg', 'cartoon/Screwball bird.svg', 'flower/Flower46.svg', 'winter/SnowFlake04.svg'],
+        bin: 'Lamp-christmas_Side3.3mf',
+        info: '<p>This is part 3 of 6 of a printable lamp, but the panels could be also used separately. There are SVG files for 5 themes that can be used by placing them into the theme folder along with the SCAD file.</p><p>The attached print files is for the christmas theme lamp. All the panel 3MF files are prepared for printing 2 layers @ 0.2mm in white and then in some other color.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>'
+});
+setDay(10, { author: 'Ulrich Bär', license: 'CC0', dir: 'Snowflakes',
         img: 'Snowflakes.png',
         src: 'Snowflakes.scad',
         bin: 'Snowflakes.3mf'
 });
-setDay(9, { author: 'Torsten Paul', license: 'CC0', dir: 'Bell',
-        img: 'Bell.png',
-        src: 'Bell.scad',
-        bin: ['Bell_small.3mf', 'Bell_big.3mf']
-});
-setDay(10, { author: 'Ulrich Bär', license: 'CC0', dir: 'StarChain',
+setDay(11, { author: 'Ulrich Bär', license: 'CC0', dir: 'StarChain',
         img: 'StarChain.png',
         src: 'StarChain.scad',
         bin: 'StarChain.3mf'
 });
-setDay(11, { author: 'Ulrich Bär', license: 'CC0', dir: 'Water',
-        img: 'water.gif',
-        src: 'Water.scad',
-        bin: 'Water.3mf'
+setDay(12, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part4',
+        img: 'Lamp-christmas_Side4.png',
+        src: ['Lamp-Part4.scad', 'christmas/angel.svg', 'disco/Disco-Dancer-4-Remix-by-Merlin2525.svg', 'cartoon/Hen with egg.sv', 'flower/Flower113.svg', 'winter/Flake-05.svg'],
+        bin: 'Lamp-christmas_Side4.3mf',
+        info: '<p>This is part 4 of 6 of a printable lamp, but the panels could be also used separately. There are SVG files for 5 themes that can be used by placing them into the theme folder along with the SCAD file.</p><p>The attached print files is for the christmas theme lamp. All the panel 3MF files are prepared for printing 2 layers @ 0.2mm in white and then in some other color.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>'
 });
-setDay(12, { author: 'Scopeuk', license: 'CC0', dir: 'Avocado',
-        img: 'Avocado.png',
-        src: 'Avocado.scad'
+setDay(13, { author: 'Torsten Paul', license: 'CC0', dir: 'Bell',
+        img: 'Bell.png',
+        src: 'Bell.scad',
+        bin: ['Bell_small.3mf', 'Bell_big.3mf']
 });
-setDay(13, { author: 'Ulrich Bär', license: 'CC0', dir: 'WorleyNoise',
+setDay(14, { author: 'Ulrich Bär', license: 'CC0', dir: 'WorleyNoise',
         img: 'WorleyNoise.png',
         src: 'WorleyNoise.scad',
         bin: 'WorleyNoise.3mf'
+});
+setDay(15, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part5',
+        img: 'Lamp-christmas_Bar.png',
+        src: ['Lamp-Part5.scad', '', '', '', '', ''],
+        bin: 'Lamp-christmas_Bar.3mf',
+        info: '<p>This is part 5 of 6 of a printable lamp. There are SVG files for 5 themes that can be used by placing them into the theme folder along with the SCAD file.</p><p>The attached print files is for the christmas theme lamp. All the panel 3MF files are prepared for printing 2 layers @ 0.2mm in white and then in some other color.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>'
+});
+setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'Water',
+        img: 'water.gif',
+        src: 'Water.scad',
+        bin: 'Water.3mf'
 });

@@ -22,21 +22,30 @@ Designs for the OpenSCAD Advent Calendar 2023
 ## 7. Tree
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Tree/Tree.png" width="250">
 
-## 8. Snowflakes
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Snowflakes/Snowflakes.png" width="250">
-
-## 9. Bell
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Bell/Bell.png" width="250">
-
-## 10. StarChain
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/StarChain/StarChain.png" width="250">
-
-## 11. Water
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Water/water.gif" width="250">
-
-## 12. Avocado
+## 8. Avocado
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Avocado/Avocado.png" width="250">
 
-## 13. WorleyNoise
+## 9. Lamp-Part3
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part3/Lamp-christmas_Side3.png" width="250">
+
+## 10. Snowflakes
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Snowflakes/Snowflakes.png" width="250">
+
+## 11. StarChain
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/StarChain/StarChain.png" width="250">
+
+## 12. Lamp-Part4
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part4/Lamp-christmas_Side4.png" width="250">
+
+## 13. Bell
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Bell/Bell.png" width="250">
+
+## 14. WorleyNoise
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/WorleyNoise/WorleyNoise.png" width="250">
+
+## 15. Lamp-Part5
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part5/Lamp-christmas_Bar.png" width="250">
+
+## 16. Water
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Water/water.gif" width="250">
 
