@@ -6,14 +6,18 @@ YEAR=${YEAR:-$(date +%Y)}
 URL="https://github.com/openscad/openscad-advent-calendar-${YEAR}/blob/main"
 
 awk '/^##/ { hide = 1} { if (!hide) print $0 }' README.md
-DAY=0
-for DIR in $(grep ^setDay index.js | sed -e "s/^.*,\s*dir:\s*'\([^']*\).*$/\1/")
-do
-	DAY=$(( $DAY + 1 ))
-	IMG=$(grep -A1 "dir: .${DIR}." index.js | tail -n1 | sed -e "s/^.*img:\s*'\([^']*\).*$/\1/")
-	cat << EOF
-## ${DAY}. ${DIR}
-<img src="${URL}/${DIR}/${IMG}" width="250">
 
-EOF
-done
+nodejs -e '
+	var url="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/";
+	var setDay = function(idx, o) {
+		console.log("## " + idx + ". " + o.dir + " (" + o.author + " | " + o.license + ")");
+		console.log("<img src=\"" + url + o.dir + "/" + o.img + "\" width=\"250\">");
+		if (o.info) console.log(o.info);
+		console.log();
+	};
+
+	var fs = require("fs");
+	var vm = require("vm");
+	var content = fs.readFileSync("./index.js");
+	vm.runInThisContext(content);
+'
