@@ -59,3 +59,7 @@ Designs for the OpenSCAD Advent Calendar 2023
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part6/Lamp.png" width="250">
 <p>This is the final part of the printable lamp.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>
 
+## 18. Teacups (Jordan Brown | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Teacups/Teacups.webp" width="250">
+<p>If you are curious what is going on here, look up the <a href="https://en.wikipedia.org/wiki/Mad_Tea_Party">Mad Tea Party</a> of Alice's Adventures in Wonderland.</p>
+

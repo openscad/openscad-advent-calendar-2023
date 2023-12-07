@@ -90,3 +90,8 @@ setDay(17, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part6',
         bin: ['Lamp_Base.3mf', 'Lamp_Top.3mf'],
         info: '<p>This is the final part of the printable lamp.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>'
 });
+setDay(18, { author: 'Jordan Brown', license: 'CC0', dir: 'Teacups',
+        img: 'Teacups.webp',
+        src: 'Teacups.scad',
+	info: '<p>If you are curious what is going on here, look up the <a href="https://en.wikipedia.org/wiki/Mad_Tea_Party">Mad Tea Party</a> of Alice\'s Adventures in Wonderland.</p>'
+});
