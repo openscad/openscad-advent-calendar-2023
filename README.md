@@ -31,3 +31,12 @@ Designs for the OpenSCAD Advent Calendar 2023
 ## 10. StarChain
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/StarChain/StarChain.png" width="250">
 
+## 11. Water
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Water/water.gif" width="250">
+
+## 12. Avocado
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Avocado/Avocado.png" width="250">
+
+## 13. WorleyNoise
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/WorleyNoise/WorleyNoise.png" width="250">
+

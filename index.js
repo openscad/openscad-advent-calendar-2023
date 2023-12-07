@@ -52,3 +52,17 @@ setDay(10, { author: 'Ulrich Bär', license: 'CC0', dir: 'StarChain',
         src: 'StarChain.scad',
         bin: 'StarChain.3mf'
 });
+setDay(11, { author: 'Ulrich Bär', license: 'CC0', dir: 'Water',
+        img: 'water.gif',
+        src: 'Water.scad',
+        bin: 'Water.3mf'
+});
+setDay(12, { author: '', license: 'CC0', dir: 'Avocado',
+        img: 'Avocado.png',
+        src: 'Avocado.scad'
+});
+setDay(13, { author: 'Ulrich Bär', license: 'CC0', dir: 'WorleyNoise',
+        img: 'WorleyNoise.png',
+        src: 'WorleyNoise.scad',
+        bin: 'WorleyNoise.3mf'
+});
