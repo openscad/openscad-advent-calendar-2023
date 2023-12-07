@@ -57,7 +57,7 @@ setDay(11, { author: 'Ulrich Bär', license: 'CC0', dir: 'Water',
         src: 'Water.scad',
         bin: 'Water.3mf'
 });
-setDay(12, { author: '', license: 'CC0', dir: 'Avocado',
+setDay(12, { author: 'Scopeuk', license: 'CC0', dir: 'Avocado',
         img: 'Avocado.png',
         src: 'Avocado.scad'
 });
