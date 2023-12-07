@@ -49,3 +49,6 @@ Designs for the OpenSCAD Advent Calendar 2023
 ## 16. Water
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Water/water.gif" width="250">
 
+## 17. Lamp-Part6
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part6/Lamp.png" width="250">
+
