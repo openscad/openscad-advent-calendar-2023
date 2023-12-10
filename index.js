@@ -80,7 +80,7 @@ setDay(15, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part5',
         info: '<p>This is part 5 of 6 of a printable lamp. There are SVG files for 5 themes that can be used by placing them into the theme folder along with the SCAD file.</p><p>The attached print files is for the christmas theme lamp. All the panel 3MF files are prepared for printing 2 layers @ 0.2mm in white and then in some other color.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>'
 });
 setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'Water',
-        img: 'water.gif',
+        img: 'Water.webp',
         src: 'Water.scad',
         bin: 'Water.3mf'
 });
