@@ -12,7 +12,7 @@
 set -e
 
 # Point to a convenient copy of OpenSCAD
-OPENSCAD="/home/jordan/openscad/obj/b/openscad"
+OPENSCAD=${OPENSCAD:-openscad}
 
 # Prefix for PNG output files
 out=teacups
@@ -37,7 +37,7 @@ rm -f $out*.png
     --camera $camera \
     -D fps=$fps \
     -D frames=$frames \
-    teacups.scad
+    Teacups.scad
 
 # You could also use this command to create an animated gif, but .webp is smaller.
 # magick convert $out*.png -set delay $speed $out.gif

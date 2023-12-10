@@ -42,24 +42,28 @@ Designs for the OpenSCAD Advent Calendar 2023
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part4/Lamp-christmas_Side4.png" width="250">
 <p>This is part 4 of 6 of a printable lamp, but the panels could be also used separately. There are SVG files for 5 themes that can be used by placing them into the theme folder along with the SCAD file.</p><p>The attached print files is for the christmas theme lamp. All the panel 3MF files are prepared for printing 2 layers @ 0.2mm in white and then in some other color.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>
 
-## 13. Bell (Torsten Paul | CC0)
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Bell/Bell.png" width="250">
+## 13. TeaLightHolder (u/ardvarkmadman | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/TeaLightHolder/TeaLightHolder.png" width="250">
+<p>Safety Note: Please print with no-flammable / flame resistant material or use LED tea lights.</p>
 
-## 14. WorleyNoise (Ulrich Bär | CC0)
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/WorleyNoise/WorleyNoise.png" width="250">
+## 14. Bell (Torsten Paul | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Bell/Bell.png" width="250">
 
 ## 15. Lamp-Part5 (Torsten Paul | CC0)
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part5/Lamp-christmas_Bar.png" width="250">
 <p>This is part 5 of 6 of a printable lamp. There are SVG files for 5 themes that can be used by placing them into the theme folder along with the SCAD file.</p><p>The attached print files is for the christmas theme lamp. All the panel 3MF files are prepared for printing 2 layers @ 0.2mm in white and then in some other color.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>
 
-## 16. Water (Ulrich Bär | CC0)
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Water/water.gif" width="250">
+## 16. WorleyNoise (Ulrich Bär | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/WorleyNoise/WorleyNoise.png" width="250">
 
-## 17. Lamp-Part6 (Torsten Paul | CC0)
+## 17. Water (Ulrich Bär | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Water/Water.webp" width="250">
+
+## 18. Lamp-Part6 (Torsten Paul | CC0)
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part6/Lamp.png" width="250">
 <p>This is the final part of the printable lamp.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>
 
-## 18. Teacups (Jordan Brown | CC0)
+## 19. Teacups (Jordan Brown | CC0)
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Teacups/Teacups.webp" width="250">
 <p>If you are curious what is going on here, look up the <a href="https://en.wikipedia.org/wiki/Mad_Tea_Party">Mad Tea Party</a> of Alice's Adventures in Wonderland.</p>
 
