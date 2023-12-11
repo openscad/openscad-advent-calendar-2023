@@ -1,0 +1,4 @@
+#!/bin/bash
+
+img2webp -v -loop 0 -d 33 -lossy -q 97 -m 4 frames/frame*.png -o IceSkater.webp
+
