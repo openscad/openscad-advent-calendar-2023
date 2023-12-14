@@ -80,10 +80,10 @@ setDay(15, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part5',
         bin: 'Lamp-christmas_Bar.3mf',
         info: '<p>This is part 5 of 6 of a printable lamp. There are SVG files for 5 themes that can be used by placing them into the theme folder along with the SCAD file.</p><p>The attached print files is for the christmas theme lamp. All the panel 3MF files are prepared for printing 2 layers @ 0.2mm in white and then in some other color.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>'
 });
-setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'WorleyNoise',
-        img: 'WorleyNoise.png',
-        src: 'WorleyNoise.scad',
-        bin: 'WorleyNoise.3mf'
+setDay(16, { author: 'Guenther Sohler', license: 'CC0', dir: 'SnubDodecahedron',
+        img: 'SnubDodecahedron.png',
+        src: 'SnubDodecahedron.scad',
+        info: '<p>The snub dodecahedron has 92 faces (the most of the 13 Archimedean solids): 12 are pentagons and the other 80 are equilateral triangles. It also has 150 edges, and 60 vertices... more details in the <a href="https://en.wikipedia.org/wiki/Snub_dodecahedron">Wikipedia Article</a>.</p>'
 });
 setDay(17, { author: 'Ulrich Bär', license: 'CC0', dir: 'Water',
         img: 'Water.webp',
@@ -96,11 +96,16 @@ setDay(18, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part6',
         bin: ['Lamp_Base.3mf', 'Lamp_Top.3mf'],
         info: '<p>This is the final part of the printable lamp.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>'
 });
-setDay(19, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'IceSkater',
+setDay(19, { author: 'Ulrich Bär', license: 'CC0', dir: 'WorleyNoise',
+        img: 'WorleyNoise.png',
+        src: 'WorleyNoise.scad',
+        bin: 'WorleyNoise.3mf'
+});
+setDay(20, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'IceSkater',
         img: 'IceSkater.webp',
         src: 'IceSkater.scad'
 });
-setDay(20, { author: 'Jordan Brown', license: 'CC0', dir: 'Teacups',
+setDay(21, { author: 'Jordan Brown', license: 'CC0', dir: 'Teacups',
         img: 'Teacups.webp',
         src: 'Teacups.scad',
 	info: '<p>If you are curious what is going on here, look up the <a href="https://en.wikipedia.org/wiki/Mad_Tea_Party">Mad Tea Party</a> of Alice\'s Adventures in Wonderland.</p>'
