@@ -53,9 +53,8 @@ Designs for the OpenSCAD Advent Calendar 2023
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part5/Lamp-christmas_Bar.png" width="250">
 <p>This is part 5 of 6 of a printable lamp. There are SVG files for 5 themes that can be used by placing them into the theme folder along with the SCAD file.</p><p>The attached print files is for the christmas theme lamp. All the panel 3MF files are prepared for printing 2 layers @ 0.2mm in white and then in some other color.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>
 
-## 16. SnubDodecahedron (Guenther Sohler | CC0)
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/SnubDodecahedron/SnubDodecahedron.png" width="250">
-<p>The snub dodecahedron has 92 faces (the most of the 13 Archimedean solids): 12 are pentagons and the other 80 are equilateral triangles. It also has 150 edges, and 60 vertices... more details in the <a href="https://en.wikipedia.org/wiki/Snub_dodecahedron">Wikipedia Article</a>.</p>
+## 16. WorleyNoise (Ulrich Bär | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/WorleyNoise/WorleyNoise.png" width="250">
 
 ## 17. Water (Ulrich Bär | CC0)
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Water/Water.webp" width="250">
@@ -64,8 +63,9 @@ Designs for the OpenSCAD Advent Calendar 2023
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part6/Lamp.png" width="250">
 <p>This is the final part of the printable lamp.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>
 
-## 19. WorleyNoise (Ulrich Bär | CC0)
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/WorleyNoise/WorleyNoise.png" width="250">
+## 19. SnubDodecahedron (Guenther Sohler | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/SnubDodecahedron/SnubDodecahedron.png" width="250">
+<p>The snub dodecahedron has 92 faces (the most of the 13 Archimedean solids): 12 are pentagons and the other 80 are equilateral triangles. It also has 150 edges, and 60 vertices... more details in the <a href="https://en.wikipedia.org/wiki/Snub_dodecahedron">Wikipedia Article</a>.</p>
 
 ## 20. IceSkater (Ryan A. Colyer | CC0)
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/IceSkater/IceSkater.webp" width="250">
