@@ -63,14 +63,24 @@ Designs for the OpenSCAD Advent Calendar 2023
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part6/Lamp.png" width="250">
 <p>This is the final part of the printable lamp.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>
 
-## 19. SnubDodecahedron (Guenther Sohler | CC0)
+## 19. Twist (Yannick Battail | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Twist/Twist.png" width="250">
+<p>Twist, customizable Christmas decoration, check out the <a href="https://github.com/yannickbattail/openscad-models/tree/main/twist">github repository</a> for more info.</p>
+
+## 20. Teacups (Jordan Brown | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Teacups/Teacups.webp" width="250">
+<p>If you are curious what is going on here, look up the <a href="https://en.wikipedia.org/wiki/Mad_Tea_Party">Mad Tea Party</a> of Alice's Adventures in Wonderland.</p>
+
+## 21. SnubDodecahedron (Guenther Sohler | CC0)
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/SnubDodecahedron/SnubDodecahedron.png" width="250">
 <p>The snub dodecahedron has 92 faces (the most of the 13 Archimedean solids): 12 are pentagons and the other 80 are equilateral triangles. It also has 150 edges, and 60 vertices... more details in the <a href="https://en.wikipedia.org/wiki/Snub_dodecahedron">Wikipedia Article</a>.</p>
 
-## 20. IceSkater (Ryan A. Colyer | CC0)
+## 22. IceSkater (Ryan A. Colyer | CC0)
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/IceSkater/IceSkater.webp" width="250">
 
-## 21. Teacups (Jordan Brown | CC0)
-<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Teacups/Teacups.webp" width="250">
-<p>If you are curious what is going on here, look up the <a href="https://en.wikipedia.org/wiki/Mad_Tea_Party">Mad Tea Party</a> of Alice's Adventures in Wonderland.</p>
+## 23. GiftCannon (Lee Fallat | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/GiftCannon/GiftCannon.png" width="250">
+
+## 24. PorchPirate (Jordan Brown | CC0)
+<img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/PorchPirate/Porch Pirate.webp" width="250">
 

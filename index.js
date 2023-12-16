@@ -96,17 +96,31 @@ setDay(18, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part6',
         bin: ['Lamp_Base.3mf', 'Lamp_Top.3mf'],
         info: '<p>This is the final part of the printable lamp.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>'
 });
-setDay(19, { author: 'Guenther Sohler', license: 'CC0', dir: 'SnubDodecahedron',
+setDay(19, { author: 'Yannick Battail', license: 'CC0', dir: 'Twist',
+        img: 'Twist.png',
+        src: 'Twist.scad',
+        bin: 'Twist.3mf',
+        info: '<p>Twist, customizable Christmas decoration, check out the <a href="https://github.com/yannickbattail/openscad-models/tree/main/twist">github repository</a> for more info.</p>'
+});
+setDay(20, { author: 'Jordan Brown', license: 'CC0', dir: 'Teacups',
+        img: 'Teacups.webp',
+        src: 'Teacups.scad',
+	info: '<p>If you are curious what is going on here, look up the <a href="https://en.wikipedia.org/wiki/Mad_Tea_Party">Mad Tea Party</a> of Alice\'s Adventures in Wonderland.</p>'
+});
+setDay(21, { author: 'Guenther Sohler', license: 'CC0', dir: 'SnubDodecahedron',
         img: 'SnubDodecahedron.png',
         src: 'SnubDodecahedron.scad',
         info: '<p>The snub dodecahedron has 92 faces (the most of the 13 Archimedean solids): 12 are pentagons and the other 80 are equilateral triangles. It also has 150 edges, and 60 vertices... more details in the <a href="https://en.wikipedia.org/wiki/Snub_dodecahedron">Wikipedia Article</a>.</p>'
 });
-setDay(20, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'IceSkater',
+setDay(22, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'IceSkater',
         img: 'IceSkater.webp',
         src: 'IceSkater.scad'
 });
-setDay(21, { author: 'Jordan Brown', license: 'CC0', dir: 'Teacups',
-        img: 'Teacups.webp',
-        src: 'Teacups.scad',
-	info: '<p>If you are curious what is going on here, look up the <a href="https://en.wikipedia.org/wiki/Mad_Tea_Party">Mad Tea Party</a> of Alice\'s Adventures in Wonderland.</p>'
+setDay(23, { author: 'Lee Fallat', license: 'CC0', dir: 'GiftCannon',
+        img: 'GiftCannon.png',
+        src: 'GiftCannon.scad'
+});
+setDay(24, { author: 'Jordan Brown', license: 'CC0', dir: 'PorchPirate',
+        img: 'Porch Pirate.webp',
+        src: 'Porch Pirate.scad'
 });
