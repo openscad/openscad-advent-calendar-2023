@@ -99,7 +99,7 @@ setDay(18, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part6',
 setDay(19, { author: 'Yannick Battail', license: 'CC0', dir: 'Twist',
         img: 'Twist.png',
         src: 'Twist.scad',
-        bin: 'Twist.3mf',
+        bin: ['Twist1.3mf', 'Twist2.3mf'],
         info: '<p>Twist, customizable Christmas decoration, check out the <a href="https://github.com/yannickbattail/openscad-models/tree/main/twist">github repository</a> for more info.</p>'
 });
 setDay(20, { author: 'Jordan Brown', license: 'CC0', dir: 'Teacups',

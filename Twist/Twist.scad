@@ -1,10 +1,12 @@
 /**
 * licence CC0
 * Author: Yannick Battail
+* https://github.com/yannickbattail/openscad-models/tree/main/twist
+* Parameter selection and colors added for the openscad advent calender
 */
 
 NbArms = 5; // [2:1:20]
-Height = 50; // [1:1:200]
+Height = 80; // [1:1:200]
 DistFromBorder = 20; // [1:1:200]
 ArmRadius = 6; // [2:1:20]
 TopCone_percentHeight = 80; // [0:5:100]
@@ -20,9 +22,9 @@ animArmRadius = false;
 animTopCone_percentHeight = false;
 
 /* [Hidden] */
-//$vpt = [0, 0, 0];
-//$vpr = [60, 0, 45];
-//$vpd = 1000;
+$vpt = [0, 0, 0];
+$vpr = [80, 0, 40];
+$vpd = 550;
 $fa = 2;
 $fs = 0.4;
 epsi = 0.01;
@@ -51,10 +53,12 @@ module coneTentacle(nbArms, height, distFromBorder, armRadius, topCone_percentHe
             }
     }
     if (topHook)
+	color("Silver")
     top(nbArms, height, distFromBorder, armRadius, topCone_percentHeight, insideCone, bottom, topHook);
 }
 
 module tentacle(nbArms, height, distFromBorder, armRadius, topCone_percentHeight, insideCone, bottom, topHook) {
+	color("Crimson")
     for (i = [0:nbArms]) {
         rotate([0, 0, i * 360 / nbArms])
             {
@@ -64,8 +68,10 @@ module tentacle(nbArms, height, distFromBorder, armRadius, topCone_percentHeight
             }
     }
     if (insideCone) {
+        color("MediumSeaGreen")
         cylinder(h = height, r1 = distFromBorder, r2 = 0);
     }
+	color("MediumSeaGreen")
     difference() {
         width = distFromBorder + armRadius;
         cylinder(h = height, r1 = width, r2 = 0);
