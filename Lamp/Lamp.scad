@@ -142,21 +142,21 @@ module base() {
 	difference() {
 		union() {
 			// base plate
-			linear_extrude(wall)
+			linear_extrude(wall, convexity = 3)
 				offset(2 * wall + tolerance)
 						shape();
 			// outer shell
-			linear_extrude(base_height) difference() {
+			linear_extrude(base_height, convexity = 3) difference() {
 				offset(2 * wall + tolerance) shape();
 				offset(delta = wall + tolerance) shape();
 			}
 			// inner shell
-			linear_extrude(base_height) difference() {
+			linear_extrude(base_height, convexity = 3) difference() {
 				shape();
 				offset(-wall) shape();
 			}
 			// inner base
-			linear_extrude(2 * wall) shape();
+			linear_extrude(2 * wall, convexity = 3) shape();
 		}
 		translate([0, 0, wall]) cylinder(d = 40, h = 2 * wall);
 	}

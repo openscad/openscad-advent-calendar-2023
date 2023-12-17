@@ -94,7 +94,7 @@ setDay(18, { author: 'Torsten Paul', license: 'CC0', dir: 'Lamp-Part6',
         img: 'Lamp.png',
         src: 'Lamp.scad',
         bin: ['Lamp_Base.3mf', 'Lamp_Top.3mf'],
-        info: '<p>This is the final part of the printable lamp.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>'
+        info: '<p>This is the final part of the printable lamp.</p><p>An easy way to assemble the parts is by taping the side panels together. For the default size that needs 7 strips of tape, length 154mm, width about 12mm, optional an 8th strip applied after the panels are slotted in place in the base part.</p>'
 });
 setDay(19, { author: 'Yannick Battail', license: 'CC0', dir: 'Twist',
         img: 'Twist.png',
