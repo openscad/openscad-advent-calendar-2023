@@ -9,10 +9,12 @@ stick_radius = 0.33; // to place a stick inside to hold the present
 inner_height = cannon_height / 3;
 
 module present() {
+		color("Gold")
         translate([0, 0, 2.5 + 0.5])
         scale([1, 1, 0.75])
         sphere(1, $fn=30);
     
+		color("Red")
         for(i = [0 : 90 : 360]) {
             translate([0, 0, 2.5 + 0.5])
             rotate([0, -25, i])
@@ -24,7 +26,8 @@ module present() {
                 cylinder(3, r=0.7, $fn=20, center=true);
             }
         }
-    
+
+		color("DarkGreen")
         minkowski() {
             cube(5, center=true);
             sphere(0.5, $fn=20);
@@ -35,7 +38,6 @@ module cannon() {
     translate([-cannon_height / 2.5, 0, 0])
     union() {
         difference() {
-            
                 rotate([0, 90, 0])
                 rotate_extrude($fn=30)
                 rotate([0, 0, 90])
@@ -63,11 +65,6 @@ module cannon() {
         rotate([0, 90, 0])
         cylinder(cannon_height * 1.5, r=stick_radius, $fn=30);
         
-
-        translate([30, 0, 0])
-        rotate([45, 45, 0])
-        present();
-
         translate([cannon_height - 0.25 + 0.25, 0, 0])
         rotate([0, 90, 0])
         rotate_extrude($fn=30)
@@ -104,7 +101,9 @@ module wheel() {
     };
 }
     
-rotate([0, -25, 0]) cannon();
-translate([0, wheel_space / 2, 0]) wheel();
-translate([0, -wheel_space / 2, 0]) wheel();
-
+rotate([0, -25, 0]) {
+	color("SlateGrey") cannon();
+	translate([-cannon_height / 2.5 + 30, 0, 0]) rotate([45, 45, 0]) present();
+}
+color("Tan") translate([0, wheel_space / 2, 0]) wheel();
+color("Tan") translate([0, -wheel_space / 2, 0]) wheel();
