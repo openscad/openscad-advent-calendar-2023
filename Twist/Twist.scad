@@ -5,10 +5,10 @@
 * Parameter selection and colors added for the openscad advent calender
 */
 
-NbArms = 5; // [2:1:20]
-Height = 80; // [1:1:200]
-DistFromBorder = 20; // [1:1:200]
-ArmRadius = 6; // [2:1:20]
+NbArms = 3; // [2:1:20]
+Height = 60; // [1:1:200]
+DistFromBorder = 18; // [1:1:200]
+ArmRadius = 12; // [2:1:20]
 TopCone_percentHeight = 80; // [0:5:100]
 InsideCone = false;
 Bottom = true;

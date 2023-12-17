@@ -4,7 +4,8 @@ SUFFIX2:=2
 
 define define_compile_rules
 $(1)/%$(SUFFIX$(2)).3mf : $(1)/%.scad
-	$$(O) $$< -o $$@ --quiet --enable manifold
+	$$(O) $$< -o $$@ --quiet --enable manifold \
+		$$($$(@F)_FLAGS)
 $(1)/%$(SUFFIX$(2)).png : $(1)/%.scad
 	$$(O) $$< -o $$@ --quiet --colorscheme DeepOcean --view axes,scales \
 		--camera $$(if $$(strip $$($$(@F)_CAMERA)),$$($$(@F)_CAMERA),$$(CAMERA)) \
@@ -26,8 +27,8 @@ all: \
 	Twist/Twist1.png \
 	Twist/Twist2.png \
 	Twist/Twist.png \
-	Twist/Twist-C1.3mf \
-	Twist/Twist-C2.3mf \
+	Twist/Twist1.3mf \
+	Twist/Twist2.3mf \
 	GiftCannon/GiftCannon.png
 
 Twist/Twist.png : Twist/Twist1.png Twist/Twist2.png
