@@ -5,10 +5,9 @@
     many others @ https://www.thingiverse.com/thing:2713124
 */    
 
-$fa = 2; $fs=0.4;
+$fa = 2; $fs=1;
 
 l=20; // Length of one side
-
 
 facemode=1;
 // 0: no face
@@ -28,7 +27,7 @@ function rotpt(pt,ang)= // Rotate Point along an angle
     [pt[0]*cos(ang)-pt[1]*sin(ang),
     pt[0]*sin(ang)+pt[1]*cos(ang)];              
 
-function ptfunc(i,lx,ang)= // Calculates all Points of a regular poolygon
+function ptfunc(i,lx,ang)= // Calculates all Points of a regular polygon
     (i > 0)
     ?rotpt(ptfunc(i-1,lx,ang)+[lx,0],ang)
     :[0,0];
@@ -93,10 +92,11 @@ module face(n)
             }
         }
     }
-    if(r_corner > 0)
+	// Render only spheres of the pentagons
+    if(r_corner > 0 && len(pts) == 5)
     {
-        for(i=[0:len(pts)-1])
-        {   
+        for(i=[0:4])
+        {
             translate(pts[i]) color("purple") sphere(r=r_corner);
         }
     }

@@ -24,13 +24,16 @@ CAMERA := 0,0,0,55,0,25,150
 
 .PHONY: all
 all: \
-	Twist/Twist1.png \
+	GiftCannon/GiftCannon.png \
+	SnubDodecahedron/SnubDodecahedron.png \
+	SnubDodecahedron/SnubDodecahedron.3mf \
+#	Twist/Twist1.png \
 	Twist/Twist2.png \
 	Twist/Twist.png \
 	Twist/Twist1.3mf \
 	Twist/Twist2.3mf \
-	GiftCannon/GiftCannon.png \
 	Lamp/Lamp.png
+
 
 Twist/Twist.png : Twist/Twist1.png Twist/Twist2.png
 	gm convert +append $^ $@
@@ -49,3 +52,5 @@ Twist2.png_CAMERA=10,0,0,80,0,40,500
 GiftCannon.png_CAMERA=8,0,4,70,0,20,110
 
 Lamp.png_CAMERA=-10,50,140,80,0,20,1000
+
+SnubDodecahedron.png_CAMERA=0,10,40,60,0,40,300
