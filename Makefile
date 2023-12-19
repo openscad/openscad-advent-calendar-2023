@@ -35,9 +35,9 @@ all: \
 Twist/Twist.png : Twist/Twist1.png Twist/Twist2.png
 	gm convert +append $^ $@
 
-Twist1.3mf_FLAGS=-DInsideCone=false
+Twist1.3mf_FLAGS=-DNbArms=3 -DArmRadius=12 -DInsideCone=false
 
-Twist2.3mf_FLAGS=-DInsideCone=true
+Twist2.3mf_FLAGS=-DNbArms=5 -DArmRadius=6 -DInsideCone=true
 
 Twist1.png_WIDTH=800
 Twist1.png_CAMERA=-10,0,0,80,0,40,500
