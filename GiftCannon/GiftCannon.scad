@@ -90,7 +90,7 @@ module wheel() {
     union() {
         difference() {
             cylinder(wheel_thickness, r = wheel_radius, $fn=60, center=true);
-            cylinder(wheel_thickness + 0.001, r = wheel_radius2, $fn=60, center=true);
+            cylinder(wheel_thickness + 1, r = wheel_radius2, $fn=60, center=true);
         }
         cylinder(wheel_thickness, r=2, center=true);
         for(i = [1 : 1 : wheel_spokes]) {
