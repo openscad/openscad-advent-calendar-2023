@@ -52,14 +52,12 @@ function angle_3poly(n1,n2,no)=
 // One Face of the Polyeder
 module face(n)
 {
-    pts=[for (i =[0:n-1]) ptfunc(i,l,360/n) ];
-     
-    
+    pts=[for (i =[0:n-1]) ptfunc(i,l,360/n)];
+
     if(facemode == 1)
     {
         color("green",alpha=0.5)
-        translate([0,0,-0.1])
-        linear_extrude(height=0.1)
+        linear_extrude(height=1.2, center = true)
         {
             polygon(pts);
         }
@@ -87,8 +85,8 @@ module face(n)
             color("yellow")
             hull()
             {
-                translate(pts[i]) sphere(r=r_edge);
-                translate(pts[(i+1)%n]) sphere(r=r_edge);
+				translate(pts[i]) sphere(r=r_edge);
+				translate(pts[(i+1)%n]) sphere(r=r_edge);
             }
         }
     }

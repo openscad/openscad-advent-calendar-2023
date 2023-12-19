@@ -110,6 +110,7 @@ setDay(20, { author: 'Jordan Brown', license: 'CC0', dir: 'Teacups',
 setDay(21, { author: 'Guenther Sohler', license: 'CC0', dir: 'SnubDodecahedron',
         img: 'SnubDodecahedron.png',
         src: 'SnubDodecahedron.scad',
+        src: 'SnubDodecahedron.3mf',
         info: '<p>The snub dodecahedron has 92 faces (the most of the 13 Archimedean solids): 12 are pentagons and the other 80 are equilateral triangles. It also has 150 edges, and 60 vertices... more details in the <a href="https://en.wikipedia.org/wiki/Snub_dodecahedron">Wikipedia Article</a>.</p>'
 });
 setDay(22, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'IceSkater',
