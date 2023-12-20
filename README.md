@@ -61,7 +61,7 @@ Designs for the OpenSCAD Advent Calendar 2023
 
 ## 18. Lamp-Part6 (Torsten Paul | CC0)
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Lamp-Part6/Lamp.png" width="250">
-<p>This is the final part of the printable lamp.</p><p>Many thanks to all the people who have shared those SVG images as public domain, see the SCAD script for links.</p>
+<p>This is the final part of the printable lamp.</p><p>An easy way to assemble the parts is by taping the side panels together. For the default size that needs 7 strips of tape, length 154mm, width about 12mm, optional an 8th strip applied after the panels are slotted in place in the base part.</p>
 
 ## 19. Twist (Yannick Battail | CC0)
 <img src="https://github.com/openscad/openscad-advent-calendar-2023/blob/main/Twist/Twist.png" width="250">
