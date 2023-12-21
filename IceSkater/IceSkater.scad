@@ -54,23 +54,18 @@ module IceSkater(bend, extend, crouch) {
 }
 
 function smoother_step(x) = x<0?0: x>1?1: 6*pow(x,5)-15*pow(x,4)+10*pow(x,3);
-function smooth_speed(v) = sin(v*90);
+function smooth_speed(v) = (1-((1+(1-v)^2)/2)^0.5)/(2*(1-0.5^0.5));
 function smooth_start(v) = 1-sin((1-v)*90);
-rotate([0, 0, $t < 0.03 ? smooth_start($t/0.03)*0.03*360/0.85 : $t<0.82 ? 360*$t/0.85 : $t<0.85 ? (smooth_speed(($t-0.82)/0.03)*0.03+0.82)*360/0.85 : 0])
-translate([100, 0, $t<0.85 ? 0 : $t < 0.985 ? 20*(1-(($t-0.915)/0.070)^2) : 0])
-rotate([0, 0, $t<0.85 ? 0 : 360*($t-0.85)/0.05])
+rotate([0, 0, $t < 0.05 ? smooth_start($t/0.05)*0.05*360/0.825 : $t<0.8 ? 360*$t/0.825 : $t<0.85 ? (smooth_speed(($t-0.8)/0.05)*0.05+0.8)*360/0.825 : 0])
+translate([100, 0, $t<0.85 ? 0 : $t < 0.96 ? 20*(1-(($t-0.905)/0.055)^2) : 0])
+rotate([0, 0, $t<0.85 ? 0 : $t < 0.99 ? 3*360*($t-0.85)/0.14 : 0])
 IceSkater(
-  $t < 0.03 ? smoother_step(($t)/0.03) :
-    $t < 0.82 ? 1 :
-    $t < 0.85 ? 1-smoother_step(($t-0.82)/0.03) : 0,
-  $t < 0.83 ? 0.85 :
-    $t < 0.88 ? 0.85*(1-smoother_step(($t-0.83)/0.05)) :
-    $t < 0.95 ? 0 :
+  $t < 0.05 ? smoother_step(($t)/0.05) :
+    1-smoother_step(($t-0.82)/0.03),
+  $t < 0.88 ? 0.85*(1-smoother_step(($t-0.82)/0.05)) :
     0.85*smoother_step(($t-0.95)/0.05),
-  $t < 0.77 ? 0 :
-    $t < 0.83 ? smoother_step(($t-0.77)/0.06) :
-    $t < 0.87 ? (1-smoother_step(($t-0.83)/0.04)) :
-    $t < 0.98 ? 0 :
-    0.5*(1-(($t-0.99)/0.01)^2)
+  $t < 0.83 ? smoother_step(($t-0.77)/0.06) :
+    $t < 0.92 ? (1-smoother_step(($t-0.83)/0.04)) :
+    0.5*(1-(($t-0.96)/0.04)^2)
 );
 
